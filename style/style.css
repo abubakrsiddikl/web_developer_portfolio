@@ -146,6 +146,9 @@ nav li a{
 }
 
 /* resume section styles */
+.resume{
+    margin-bottom: 120px;
+}
 .resume-title{
     font-size: 35px;
     font-weight: bold;
@@ -181,4 +184,26 @@ nav li a{
 }
 .resume-download-cv{
     margin-top: 50px;
+}
+
+/* footer section styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-cloumn{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    color: #757575;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 16px;
+    border: none;
+    font-size: 16px;
 }
